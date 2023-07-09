@@ -28,7 +28,6 @@ namespace UnitTests
             var serviceCollection = new ServiceCollection();
             serviceCollection.AddMemoryCache();
             serviceCollection.AddScoped<IBillingService, BillingService>();
-            serviceCollection.AddScoped<IProductService, ProductService>();
             var serviceProvider = serviceCollection.BuildServiceProvider();
 
             ContextService.MemoryCache = serviceProvider.GetRequiredService<IMemoryCache>();
