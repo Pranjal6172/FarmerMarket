@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmerMarket.API", "FarmerMarket.API\FarmerMarket.API.csproj", "{6D145E4C-3226-4ADD-B60A-13DDE02CA122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmerMarket.API", "FarmerMarket.API\FarmerMarket.API.csproj", "{6D145E4C-3226-4ADD-B60A-13DDE02CA122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product", "Product\Product.csproj", "{2BDD2EB7-0E58-40C6-A0C2-3D5DE9572DD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product", "Product\Product.csproj", "{2BDD2EB7-0E58-40C6-A0C2-3D5DE9572DD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billing", "Billing\Billing.csproj", "{4D085A44-687F-49C7-8F46-91D2FAD12F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Billing", "Billing\Billing.csproj", "{4D085A44-687F-49C7-8F46-91D2FAD12F58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Offers", "Offers\Offers.csproj", "{A57D6627-7567-4B79-9C96-92757B8C7680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Offers", "Offers\Offers.csproj", "{A57D6627-7567-4B79-9C96-92757B8C7680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{A2D25C29-9D03-48C3-9480-1229A47F5BB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A57D6627-7567-4B79-9C96-92757B8C7680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A57D6627-7567-4B79-9C96-92757B8C7680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A57D6627-7567-4B79-9C96-92757B8C7680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D25C29-9D03-48C3-9480-1229A47F5BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D25C29-9D03-48C3-9480-1229A47F5BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D25C29-9D03-48C3-9480-1229A47F5BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D25C29-9D03-48C3-9480-1229A47F5BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
